@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(fondo\ de\ pagi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+form {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form {
+    max-width: 400px;
+    /* Establece un ancho máximo para el formulario */
+    margin: 0 auto;
+    /* Centra horizontalmente el formulario */
+    padding: 20px;
+    /* Aumenta el espacio interior para agrandar el formulario */
+    width: 400px;
+    background: rgb(114, 54, 54);
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Calibri';
+    text-align: center;
+}
+
+.form h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: 'Agbalumo';
+}
+
+.control {
+    width: 100%;
+    background: rgb(148, 143, 143);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(47, 15, 15)5, 0, 0;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.btn {
+    width: 100%;
+    margin: 16px 0;
+    font-size: 16px;
+    background-color: rgb(65, 13, 13);
+    color: white;
+    padding: 12px 20px;
+    /* Aumenta el espacio interior del botón para hacerlo más grande */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nombre {
+    font-family: 'Alkatra';
+    font-size: 30px;
+    display: flex;
+    text-align: left;
+}
+
+.icono {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
